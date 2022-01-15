@@ -1,7 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
 body {
     font-family: Helvetica, Arial, sans-serif;
-    color:honeydew
+    color:honeydew;
   }
+
+  #wyatt-corbett {
+    background-color: rgb(176, 225, 240);
+    padding-left: 55px;
+    margin-right: 85px;
+    color: rgb(245, 205, 205);
+    display: flex;
+    justify-content: flex-start;
+}
 
   header {
       padding: 20px 35px;
@@ -33,7 +49,6 @@ body {
     padding: 10px 25px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-weight: bold;
   }
   
@@ -53,10 +68,4 @@ body {
     z-index: 9999;
   }
 
-  #wyatt-corbett {
-      background-color: rgb(176, 225, 240);
-      padding-right: 55px;
-      margin-right: 25px;
-      width: 100px;
-      color: rgb(245, 205, 205);
-  }
+  
