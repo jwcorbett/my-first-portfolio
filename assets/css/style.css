@@ -75,19 +75,23 @@ body {
   /* SECTION STYLES */
   section {
       padding: 60px;
-      text-align: left;
+      margin-right: 20px;
   }
 
   .flex-row {
       display: flex;
+      align-items: baseline;
+      flex-direction: row;
   }
 
   .section-title {
-      font-size: 24px;
-      border-right: 10px solid;
+      text-align: left;
+      font-size: 34px;
+      border-right: 5px solid;
       color:rgb(176, 225, 240);
-     padding-bottom: 90px;
+      padding-bottom: 90px; 
      padding-right: 20px;
+     margin: 5px 5px 35px 5px; 
      
  }
 
